@@ -1,48 +1,60 @@
-button {
-    --color: #560bad;
-    font-family: inherit;
-    display: inline-block;
-    width: 8em;
-    height: 2.6em;
-    line-height: 2.5em;
-    margin: 20px;
+.btn-padrao{
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111111;
+    box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    border: 2px solid var(--color);
-    transition: color .5s;
-    z-index: 1;
-    font-size: 17px;
-    border-radius: 6px;
-    font-weight: 500;
-    color: var(--color);
-   }
+    border: 1px solid #000000;
+  }
    
-   button:before {
-    content: "";
+  .btn-padrao:after {
+    content: " ";
+    width: 0%;
+    height: 100%;
+    background: #ffffff;
     position: absolute;
-    z-index: -1;
-    background: var(--color);
-    height: 150px;
-    width: 200px;
-    border-radius: 50%;
-   }
+    transition: all 0.4s ease-in-out;
+    right: 0;
+  }
    
-   button:hover {
+  .btn-padrao:hover::after {
+    right: auto;
+    left: 0;
+    width: 100%;
+  }
+   
+  .btn-padrao span {
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px 15px;
     color: #fff;
-   }
+    font-size: 1.025em;
+    font-weight: 400;
+    letter-spacing: 3px;
+    z-index: 20;
+    transition: all 0.3s ease-in-out;
+  }
    
-   button:before {
-    top: 100%;
-    left: 100%;
-    transition: all .7s;
-   }
+  .btn-padrao:hover span {
+    color: #000000;
+    animation: scaleUp 0.3s ease-in-out;
+  }
    
-   button:hover:before {
-    top: -30px;
-    left: -30px;
-   }
+  @keyframes scaleUp {
+    0% {
+     transform: scale(1);
+    }
    
-   button:active:before {
-    background: #3a0ca3;
-    transition: background 0s;
-   }
+    50% {
+     transform: scale(0.95);
+    }
+   
+    100% {
+     transform: scale(1);
+    }
+  }
+  
+   

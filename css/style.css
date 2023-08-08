@@ -1,5 +1,6 @@
 @import './global/reset.css';
 @import './global/componentes.css';
-/* @import './global/botao.css'; */
+@import './global/botao.css';
 
 @import './home/header.css';
+@import './home/introducao.css';

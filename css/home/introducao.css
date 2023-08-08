@@ -1,0 +1,48 @@
+/* .introducao-bg{
+    background-color: #f0f0f0;
+} */
+
+.introducao {
+    display: flex;
+    gap: 40px;
+    max-width: 950px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 120px 0 20px 0;
+}
+
+.intro-texto a {
+    font-weight: 600;
+    display: block;
+    font-size: .825rem;
+}
+
+.intro-texto h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.intro-texto p {
+    margin-bottom: 20px;
+    line-height: 1.25;
+}
+/* .bg-color{
+    position: relative;
+}
+
+.bg-color::before{
+    content: '';
+    width: 170px;
+    height: 25px;
+    display: block;
+    background-color: #e4c1f9;
+    position: absolute;
+    bottom: 0px;
+    left: 2px;
+    z-index: -20;
+} */
+
+

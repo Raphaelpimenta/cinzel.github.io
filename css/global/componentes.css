@@ -16,3 +16,19 @@
     opacity: 1;
     transform: translate3d(0, 0, 0);
 }
+
+.bg-color{
+    position: relative;
+}
+
+.bg-color::before{
+    content: '';
+    width: 170px;
+    height: 25px;
+    display: block;
+    background-color: #e4c1f9;
+    position: absolute;
+    bottom: 0px;
+    left: 2px;
+    z-index: -20;
+}
