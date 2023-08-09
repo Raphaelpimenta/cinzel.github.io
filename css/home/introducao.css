@@ -29,20 +29,22 @@
     margin-bottom: 20px;
     line-height: 1.25;
 }
-/* .bg-color{
-    position: relative;
+
+
+@media(max-width: 1000px){
+    .introducao img{
+        display: none;
+    }
+
+    .intro-texto {
+        text-align: center;
+    }
+
+    .intro-texto h1 {
+        font-size: 2rem;
+    }
+
+    .intro-texto .btn-padrao {
+        margin: 0 auto;
+    }
 }
-
-.bg-color::before{
-    content: '';
-    width: 170px;
-    height: 25px;
-    display: block;
-    background-color: #e4c1f9;
-    position: absolute;
-    bottom: 0px;
-    left: 2px;
-    z-index: -20;
-} */
-
-
