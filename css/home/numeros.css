@@ -1,0 +1,46 @@
+.numeros-grid {
+    max-width: 950px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-top: 80px;
+    
+    /* justify-content: space-between; */
+}
+
+.numeros-texto h2{
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+.numeros {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    text-align: center;
+}
+
+.numeros li {
+    text-align: center;
+    max-width: max-content;
+    align-content: center;
+    display: grid;
+    justify-content: center;
+}
+
+.numeros li:nth-child(2){
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+    padding: 0px 50px;
+}
+
+.numeros li span {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.7rem;
+}
+
+.numeros li p {
+    font-weight: 400;
+}
