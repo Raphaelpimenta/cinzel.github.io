@@ -1,12 +1,10 @@
 .numeros-grid {
-    max-width: 950px;
+    max-width: 1000px;
     margin: 0 auto;
     display: flex;
-    gap: 30px;
+    gap: 80px;
     align-items: center;
     margin-top: 80px;
-    
-    /* justify-content: space-between; */
 }
 
 .numeros-texto h2{
@@ -41,6 +39,23 @@
     font-size: 1.7rem;
 }
 
+.numeros li .mais {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
 .numeros li p {
     font-weight: 400;
+}
+
+@media (max-width: 950px){
+    .numeros-grid {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .numeros-texto {
+        text-align: center;
+    }
 }
