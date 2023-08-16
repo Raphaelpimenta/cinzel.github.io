@@ -5,3 +5,9 @@
     align-items: center;
     gap: 6rem;
 }
+
+.conteudo h2,
+.conteudo p {
+    margin-bottom: 20px;
+    line-height: 1.35;
+}
