@@ -2,6 +2,7 @@
     max-width: 1000px;
     margin: 120px auto;
     display: flex;
+    /* flex-wrap: wrap; */
     align-items: center;
     gap: 6rem;
 }
@@ -10,4 +11,11 @@
 .conteudo p {
     margin-bottom: 20px;
     line-height: 1.30;
+}
+
+@media (max-width: 950px) {
+    .conteudo {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 }
