@@ -1,10 +1,9 @@
 .numeros-grid {
     max-width: 1000px;
-    margin: 80px auto;
+    margin: 70px auto;
     display: flex;
     gap: 80px;
     align-items: center;
-    /* margin-top: 80px; */
 }
 
 .numeros-texto h2{

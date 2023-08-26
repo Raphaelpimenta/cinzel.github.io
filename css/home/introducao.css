@@ -4,8 +4,8 @@
     max-width: 950px;
     align-items: center;
     justify-content: center;
-    margin: 40px auto 130px auto;
-    padding: 120px 0 20px 0;
+    margin: 20px auto 100px auto;
+    padding: 100px 0 20px 0;
 }
 
 .intro-texto a {
@@ -42,5 +42,13 @@
 
     .intro-texto .btn-padrao {
         margin: 0 auto;
+    }
+
+    .bg-color::before {
+        display: none;
+    }
+
+    .bg-color {
+        color: #5e548e;
     }
 }
