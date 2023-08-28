@@ -8,8 +8,20 @@
     margin-bottom: 30px;
 }
 
-.lista ul {
+/* .lista ul {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
+} */
+
+.lista-content {
+    display: flex;
+    /* flex-wrap: wrap;
+    gap: 20px; */
+    justify-content: center;
+}
+
+.lista-content li {
+    display: flex;
 }
