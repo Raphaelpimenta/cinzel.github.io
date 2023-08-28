@@ -1,0 +1,15 @@
+.lista-bg {
+    background-color: #bde0fe;
+    padding: 30px;
+}
+
+.lista h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.lista ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
