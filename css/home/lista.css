@@ -3,9 +3,13 @@
     padding: 30px;
 }
 
+.lista {
+    max-width: 1000px;
+}
+
 .lista h2{
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 /* .lista ul {
@@ -17,11 +21,12 @@
 
 .lista-content {
     display: flex;
-    /* flex-wrap: wrap;
-    gap: 20px; */
     justify-content: center;
+
 }
 
 .lista-content li {
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
