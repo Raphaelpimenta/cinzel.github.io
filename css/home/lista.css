@@ -51,3 +51,13 @@
     position: relative;
 }
 
+.lista-content li a::after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    display: block;
+    background: url('../../img/Icones/seta-direita-de-linha-reta-fina.png') no-repeat center;
+    position: absolute;
+    right: -25px;
+    top: 4px;
+}
