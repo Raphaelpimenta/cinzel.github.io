@@ -13,6 +13,7 @@
 
 .numeros {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
     text-align: center;
@@ -60,5 +61,20 @@
 
     .numeros li:nth-child(2) {
         padding: 0px 30px;
+    }
+}
+
+@media (max-width: 590px) {
+    .numeros li:nth-child(2){
+        padding: 30px;
+    }
+}
+
+@media (max-width: 420px) {
+    .numeros li:nth-child(2){
+        border-left: none;
+        border-right: none;
+        border-top: 2px solid #000000;
+        border-bottom: 2px solid #000000;
     }
 }

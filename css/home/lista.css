@@ -1,6 +1,6 @@
 .lista-bg {
     background-color: #bde0fe;
-    padding: 30px;
+    padding: 60px 0px 70px 0px;
 }
 
 .lista {
@@ -15,6 +15,7 @@
 .lista-content {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 50px;
 }
 
