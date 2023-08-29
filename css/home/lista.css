@@ -15,17 +15,28 @@
 .lista-content {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 50px;
 }
 
 .lista-content li {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
 }
 
 .lista-content li h3 {
     margin-bottom: 10px;
+    position: relative;
+}
+
+.lista-content li h3::after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    display: block;
+    background: url('../../img/Icones/avanco-rapido.png') no-repeat center;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 .lista-content li p {
@@ -34,3 +45,9 @@
     line-height: 1.5;
     color: #383838;
 }
+
+.lista-content li a {
+    text-decoration: underline;
+    position: relative;
+}
+
