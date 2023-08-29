@@ -12,21 +12,25 @@
     margin-bottom: 60px;
 }
 
-/* .lista ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-} */
-
 .lista-content {
     display: flex;
     justify-content: center;
-
+    gap: 30px;
 }
 
 .lista-content li {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+}
+
+.lista-content li h3 {
+    margin-bottom: 10px;
+}
+
+.lista-content li p {
+    margin-bottom: 15px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #383838;
 }
