@@ -15,7 +15,7 @@
 .lista-content {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 50px;
 }
 
@@ -61,4 +61,10 @@
     position: absolute;
     right: -30px;
     top: 0px;
+}
+
+@media (max-width: 950px){
+    .lista-content {
+        flex-wrap: wrap;
+    }
 }
