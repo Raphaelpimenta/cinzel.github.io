@@ -13,7 +13,7 @@
 
 .numeros {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 20px;
     justify-content: center;
     text-align: center;
@@ -50,6 +50,10 @@
 }
 
 @media (max-width: 950px){
+    .numeros {
+        flex-wrap: wrap;
+    }
+
     .numeros-grid {
         flex-direction: column;
         gap: 50px;
