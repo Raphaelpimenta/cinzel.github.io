@@ -13,6 +13,11 @@
     line-height: 1.30;
 }
 
+.conteudo2 {
+    display: flex;
+    justify-content: space-between;
+}
+
 @media (max-width: 950px) {
     .conteudo {
         justify-content: center;

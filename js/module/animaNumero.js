@@ -1,7 +1,7 @@
 export default function initAnimaNumeros(){
     
     
-    function animaNumeros(){
+    // function animaNumeros(){
         const numeros = document.querySelectorAll('[data-numero]');
 
         numeros.forEach((item) => {
@@ -16,20 +16,20 @@ export default function initAnimaNumeros(){
                     item.innerHTML = total;
                     clearInterval(timer)
                 }
-            }, 75 * Math.random())
+            }, 35 * Math.random())
         })
 
-    }
-    function handleMutation(mutation){
-        if(mutation[0].target.classList.contains('ativo')){
-            alvo.disconnect();
-            animaNumeros()
-        }
-    }
+    // }
+    // function handleMutation(mutation){
+    //     if(mutation[0].target.classList.contains('ativo')){
+    //         alvo.disconnect();
+    //         animaNumeros()
+    //     }
+    // }
 
-    const alvoTarget = document.querySelector('.cards');
-    const alvo = new MutationObserver(handleMutation);
+    // const alvoTarget = document.querySelector('.cards');
+    // const alvo = new MutationObserver(handleMutation);
 
-    alvo.observe(alvoTarget, {attributes: true})
+    // alvo.observe(alvoTarget, {attributes: true})
 
 }
